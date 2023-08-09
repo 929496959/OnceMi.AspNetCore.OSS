@@ -38,11 +38,7 @@ namespace OnceMi.AspNetCore.OSS
         /// <summary>
         /// ∞Ÿ∂»‘∆ BOS
         /// </summary>
-        BaiduCloud = 6,
-        /// <summary>
-        /// ÃÏ“Ì‘∆ OOS
-        /// </summary>
-        Ctyun = 7
+        BaiduCloud = 6
     }
 
     public class OSSOptions

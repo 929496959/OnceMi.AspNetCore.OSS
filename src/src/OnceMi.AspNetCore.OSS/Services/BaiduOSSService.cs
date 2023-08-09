@@ -11,11 +11,6 @@ using System.Threading.Tasks;
 
 namespace OnceMi.AspNetCore.OSS
 {
-    /// <summary>
-    /// 百度云BOS对接
-    /// build by zjy
-    /// QQ：365015
-    /// </summary>
     public class BaiduOSSService : BaseOSSService, IBaiduOSSService
     {
         private readonly BosClient _client = null;

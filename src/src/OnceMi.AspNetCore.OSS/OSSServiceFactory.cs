@@ -77,8 +77,6 @@ namespace OnceMi.AspNetCore.OSS
                     return new HaweiOSSService(_cache, options);
                 case OSSProvider.BaiduCloud:
                     return new BaiduOSSService(_cache, options);
-                case OSSProvider.Ctyun:
-                    return new CtyunOSSService(_cache, options);
                 default:
                     throw new Exception("Unknow provider type");
             }
